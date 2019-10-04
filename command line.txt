@@ -1,0 +1,8 @@
+>> FOR webcam
+python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --output output/output_05.avi 
+
+
+>> for Input videos
+python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/test.mp4 --output output/test_01.avi
+
+
