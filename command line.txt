@@ -1,3 +1,6 @@
+Open Cmd browse to the project directory and write the following command
+
+
 >> FOR webcam
 python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --output output/output_05.avi 
 
