@@ -67,8 +67,8 @@ fps = FPS().start()
 
 
 while True:
-	# grab the next frame and handle if we are reading from either
-	# VideoCapture or VideoStream
+	
+
 	frame = vs.read()
 	frame = frame[1] if args.get("input", False) else frame
 
